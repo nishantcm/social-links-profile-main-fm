@@ -1,2 +1,27 @@
 //Import all of bootstrap's css
 @import "~bootstrap/scss/bootstrap";
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+.bg{
+    background-color: var(--Off-Black);
+}
+.card{
+    background-color: var(--Dark-Grey);
+}
+.content{
+    color: var(--White);
+}
+.address{
+    color: var(--Green);
+}
+.profile{
+    width: 100px;
+    height: 100px;
+}
