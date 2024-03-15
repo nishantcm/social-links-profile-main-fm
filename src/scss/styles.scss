@@ -25,3 +25,15 @@
     width: 100px;
     height: 100px;
 }
+.link{
+    background-color: var(--Grey);
+}
+.link:hover{
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
+@media (min-width: 375px) and (max-width: 1440px) {
+    .container{
+        max-width: 1440px;
+    }
+}
