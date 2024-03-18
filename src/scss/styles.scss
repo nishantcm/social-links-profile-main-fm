@@ -9,7 +9,7 @@
     --Off-Black: hsl(0, 0%, 8%);
 }
 
-.bg{
+.content-background{
     background-color: var(--Off-Black);
 }
 .card{
@@ -32,8 +32,8 @@
     background-color: var(--Green);
     color: var(--Off-Black);
 }
-@media (min-width: 375px) and (max-width: 1440px) {
-    .container{
-        max-width: 1440px;
-    }
-}
+// @media (min-width: 375px) and (max-width: 1440px) {
+//     .container{
+//         max-width: 1440px;
+//     }
+// }
